@@ -1,0 +1,14 @@
+.header_bar {
+	position: relative;
+	font-family: 'Source Sans Pro', sans-serif;
+		
+}
+
+.gen_buttons {
+	float: left;
+	padding: 10px;
+}
+
+.text_box {
+	position: relative;
+}

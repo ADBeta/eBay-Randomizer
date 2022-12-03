@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<title>eBay Randomizer</title>
+		
+		<! Load in function JavaScript file >
+		<script src="funct.js"></script>
+		<! Load the CSS sheet in >
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<div id="headerbar" class="header_bar">
+	
+		<! Link to homepage (when exists) >
+		<a title="Home" href="https://github.com/ADBeta/" >
+			<img src="logo.png"  style="width:60px"> 
+		</a> 
+		 	
+		<h1>eBay Randomizer</h1>
+	</div>
+	
+	<body>
+	
+		<div class="gen_buttons">	
+			<input type="radio" id="seed_rand" name="gen_type" checked="checked">
+			<label for="css">Seed from known URL</label>
+		
+			<input type="radio" id="full_rand" name="gen_type" >
+			<label for="tot_rand">Totally Random</label>
+	
+			<input type="radio" id="placeholer" name="gen_type">
+			<label for="javascript">Placeholder</label> 
+	
+		
+			<! Click handlers for the radio buttons >
+			<script>
+				document.getElementById("full_rand").addEventListener("click", setRand);
+				document.getElementById("seed_rand").addEventListener("click", setSeed);
+			</script>
+			
+		</div>		
+		
+		<div class="text_box" id="seed_rand_text">
+		
+		</div>
+
+
+		<script>
+			for (let i = 0; i < 10; i++) {
+  				//window.open(generateURLFromSeed(252355193846, 99999))
+				//console.log(generateURLFromSeed(40, 10))
+		
+			} 
+		
+		</script>
+
+		
+
+	</body>
+	
+</html>
