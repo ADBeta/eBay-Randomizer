@@ -1,4 +1,4 @@
-### eBay Randomizer
+# eBay Randomizer
 
 eBay Randomizer was inspired by noticing that eBay links contain [.co.uk/itm/NUMBER],
 and the number is all that is needed to get a valid link to an item on the site.
